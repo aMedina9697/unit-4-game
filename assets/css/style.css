@@ -1,0 +1,91 @@
+/*'Crsytal Collector*/
+h1 {
+    background-color: pink;
+    width: 20%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    font-size: 40px;
+    margin: 10px;
+}
+  
+/*Instructions*/
+pre {
+    background-color: lightblue;
+    width: 60%;
+    height: 500px;
+    padding-top: 30px;
+    margin: 10px;
+    font-size: 15px;
+}
+
+/*Scoretracker*/
+#scoretracker {
+    background-color: rgb(255, 82, 82);
+    height: 100px;
+    font-size: 20px;
+    max-width: 150px;
+}
+
+.container {
+    float: left;
+}
+
+.container .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 500px;
+    margin-left: -15px;
+}
+
+/*Total Score*/
+#previous {
+    background-color: mediumaquamarine;
+    width: 300px;
+    height: 100px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+/*Random Result*/
+#result {
+    background-color: darkorchid;
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+    font-size: 23px;
+}
+
+
+/* Crystal Boxes and counters*/
+
+.crystals {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.crystal {
+    border: 1px solid white;
+    height: 100px;
+    width: 100px;
+    border-radius: 4px;
+    box-shadow: 5px 5p 5px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 1s;
+    background-color: black;
+    margin: 2px;
+}
+.crystal:hover {
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    transform: translate(5px, 5px);
+    cursor: pointer;
+    transition: box-shadow 1s;
+
+}
+img {
+    width: 20px;
+    align-content: center;
+}
